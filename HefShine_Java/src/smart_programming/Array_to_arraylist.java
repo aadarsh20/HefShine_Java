@@ -1,0 +1,19 @@
+package smart_programming;
+
+import java.util.ArrayList;
+
+public class Array_to_arraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {1,2,3,4,5,6};
+		
+		ArrayList<Integer> al=new ArrayList<>();
+		for(int i:a)
+		{
+			al.add(i);
+		}
+		System.out.println(al);
+	}
+
+}
